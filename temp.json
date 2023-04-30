@@ -1,0 +1,2124 @@
+{
+  "entities": [
+    {
+      "id": "1682312400000_137456487_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 8637,
+        "name": "Разговоры о важном",
+        "sysname": "Talking about important things"
+      },
+      "subgroup": "Разговоры о важном",
+      "scheduled": true,
+      "number": 1,
+      "startDate": 1682312400000,
+      "stopDate": 1682314800000,
+      "examType": null,
+      "room": "41 кабинет математики",
+      "theme": "День труда. Мир профессий.",
+      "homework": null,
+      "individualHomework": null,
+      "homeworkFiles": [],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 488054,
+        "initials": "Киряева Г.И."
+      },
+      "scores": [],
+      "previousLesson": null
+    },
+    {
+      "id": "1682315400000_137371288_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1132,
+        "name": "Иностранный язык",
+        "sysname": "InYaz"
+      },
+      "subgroup": "вторая группа",
+      "scheduled": true,
+      "number": 2,
+      "startDate": 1682315400000,
+      "stopDate": 1682317800000,
+      "examType": null,
+      "room": "50 кабинет иностранного языка",
+      "theme": "Формирование навыков чтения с разными стратегиями",
+      "homework": "Упр.6-9 стр.127 письменно",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 62770469,
+          "link": "https://belgorod.vsopen.ru/app/file/download/ce05f06fbee077a04610c7295332c58e",
+          "size": 2154587,
+          "name": "24.04.23 10 класс .docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "ce05f06fbee077a04610c7295332c58e"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 312900,
+        "initials": "Васильева Е.В."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137040646,
+        "hasHomeworkResult": true
+      }
+    },
+    {
+      "id": "1682318400000_137612285_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1135,
+        "name": "Литература",
+        "sysname": "Lit"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 3,
+      "startDate": 1682318400000,
+      "stopDate": 1682320800000,
+      "examType": null,
+      "room": "33 кабинет русского языка и литературы",
+      "theme": "Соединение святости и греховности, наивности и душевной глубины в русском национальном характере. Сказовый характер повествования, стилистическая и языковая яркость «Очарованного странника»",
+      "homework": "Выполнить задания по карте урока",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 63405412,
+          "link": "https://belgorod.vsopen.ru/app/file/download/c9e0e81e73aaf681857ba8444ba452f4",
+          "size": 719484,
+          "name": "24.04.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "c9e0e81e73aaf681857ba8444ba452f4"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 314267,
+        "initials": "Боброва В.Ю."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137612242,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682321700000_137247726_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1139,
+        "name": "Физическая культура",
+        "sysname": "PhCu"
+      },
+      "subgroup": "Юноши",
+      "scheduled": true,
+      "number": 4,
+      "startDate": 1682321700000,
+      "stopDate": 1682324100000,
+      "examType": null,
+      "room": "тренажерный зал",
+      "theme": "Знания о физической культуре: Техника передвижений, остановок, стоек, поворотов в гандболе Техника безопасности во время проведения занятий по «Русской лапте». Выполнение специальных беговых упражнений. Закрепление техники броска в неподвижную цель. Совер",
+      "homework": "Составить комплекс утренней гимнастики",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 62505822,
+          "link": "https://belgorod.vsopen.ru/app/file/download/1da9dfa9c195d0ba38e74e9063c6f387",
+          "size": 13907,
+          "name": "10 е классы 21.04.2023 .docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "1da9dfa9c195d0ba38e74e9063c6f387"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 544852,
+        "initials": "Можевитин П.С."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137247704,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682325300000_137389846_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1133,
+        "name": "Математика",
+        "sysname": "Mt"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 5,
+      "startDate": 1682325300000,
+      "stopDate": 1682327700000,
+      "examType": null,
+      "room": "41 кабинет математики",
+      "theme": "Наибольшее и наименьшее значения функции на отрезке.",
+      "homework": "Дм, С-43, вариант 2.",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 62792470,
+          "link": "https://belgorod.vsopen.ru/app/file/download/98203dc1886f91b2b7a70ca3487ed8af",
+          "size": 17706,
+          "name": "24.04.23г, алгебра. (1 урок).docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "98203dc1886f91b2b7a70ca3487ed8af"
+        },
+        {
+          "id": 62792478,
+          "link": "https://belgorod.vsopen.ru/app/file/download/e287e13af4ec2716d5c12206bd93a64a",
+          "size": 17812,
+          "name": "24.04.23г, алгебра. (2 урок).docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "e287e13af4ec2716d5c12206bd93a64a"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 488054,
+        "initials": "Киряева Г.И."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137234339,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682328600000_137079879_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 3084,
+        "name": "Информатика",
+        "sysname": "Informatika"
+      },
+      "subgroup": "Вторая группа",
+      "scheduled": true,
+      "number": 6,
+      "startDate": 1682328600000,
+      "stopDate": 1682331000000,
+      "examType": null,
+      "room": "31 кабинет информатики",
+      "theme": null,
+      "homework": "§ 67., § 67.",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 62331779,
+          "link": "https://belgorod.vsopen.ru/app/file/download/4f4429a3eb4a20d665be524e439da504",
+          "size": 30686,
+          "name": "10А_19_04_2023 — второй.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "4f4429a3eb4a20d665be524e439da504"
+        },
+        {
+          "id": 62813471,
+          "link": "https://belgorod.vsopen.ru/app/file/download/3e7449db0d99ec41c29c94c9c9de3dab",
+          "size": 19308,
+          "name": "10А_24_04_2023.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "3e7449db0d99ec41c29c94c9c9de3dab"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 490322,
+        "initials": "Качурова Е.В."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 136735878,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682331600000_137389861_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1133,
+        "name": "Математика",
+        "sysname": "Mt"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 7,
+      "startDate": 1682331600000,
+      "stopDate": 1682334000000,
+      "examType": null,
+      "room": "41 кабинет математики",
+      "theme": "Наибольшее и наименьшее значения функции на отрезке.",
+      "homework": "Дм, С-43, вариант 2.",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 62792470,
+          "link": "https://belgorod.vsopen.ru/app/file/download/98203dc1886f91b2b7a70ca3487ed8af",
+          "size": 17706,
+          "name": "24.04.23г, алгебра. (1 урок).docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "98203dc1886f91b2b7a70ca3487ed8af"
+        },
+        {
+          "id": 62792478,
+          "link": "https://belgorod.vsopen.ru/app/file/download/e287e13af4ec2716d5c12206bd93a64a",
+          "size": 17812,
+          "name": "24.04.23г, алгебра. (2 урок).docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "e287e13af4ec2716d5c12206bd93a64a"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 488054,
+        "initials": "Киряева Г.И."
+      },
+      "scores": [
+        {
+          "score": "5",
+          "type": "score",
+          "comment": null,
+          "grade": "excellent",
+          "extraMarkId": null,
+          "absenceReasonId": null,
+          "failureReasonId": null
+        }
+      ],
+      "previousLesson": {
+        "id": 137234339,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682334600000_0_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 9133,
+        "name": "Практикум по решению геометрических задач",
+        "sysname": "Workshop on solving geometric problems"
+      },
+      "subgroup": "Практикум по решению геометрических задач",
+      "scheduled": true,
+      "number": 8,
+      "startDate": 1682334600000,
+      "stopDate": 1682337000000,
+      "examType": null,
+      "room": "41 кабинет математики",
+      "theme": null,
+      "homework": null,
+      "individualHomework": null,
+      "homeworkFiles": [],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 488054,
+        "initials": "Киряева Г.И."
+      },
+      "scores": [],
+      "previousLesson": null
+    },
+    {
+      "id": "1682398800000_137442596_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1137,
+        "name": "Химия",
+        "sysname": "Ch"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 1,
+      "startDate": 1682398800000,
+      "stopDate": 1682401200000,
+      "examType": "контрольная работа",
+      "room": "1 кабинет химии",
+      "theme": "Контрольная работа №2 по теме: «Кислородсодержащие органические соединения и их природные источники»",
+      "homework": "П.15, карта урока",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 62896243,
+          "link": "https://belgorod.vsopen.ru/app/file/download/9436d4a7a173c0111e759233bbd77d8b",
+          "size": 14074,
+          "name": "10А 25.04.К.Р.Word (3).docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "9436d4a7a173c0111e759233bbd77d8b"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 313744,
+        "initials": "Романенко Г.С."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137115880,
+        "hasHomeworkResult": true
+      }
+    },
+    {
+      "id": "1682401800000_137079888_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 3084,
+        "name": "Информатика",
+        "sysname": "Informatika"
+      },
+      "subgroup": "Вторая группа",
+      "scheduled": true,
+      "number": 2,
+      "startDate": 1682401800000,
+      "stopDate": 1682404200000,
+      "examType": null,
+      "room": "31 кабинет информатики",
+      "theme": null,
+      "homework": ".",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 62957911,
+          "link": "https://belgorod.vsopen.ru/app/file/download/3ec3749d0a04f2cbd2f466dd588e4b01",
+          "size": 19514,
+          "name": "10А_25_04_2023.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "3ec3749d0a04f2cbd2f466dd588e4b01"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 490322,
+        "initials": "Качурова Е.В."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137079879,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682404800000_137612297_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1135,
+        "name": "Литература",
+        "sysname": "Lit"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 3,
+      "startDate": 1682404800000,
+      "stopDate": 1682407200000,
+      "examType": null,
+      "room": "33 кабинет русского языка и литературы",
+      "theme": "Эпоха кризиса в «зеркале» идеологического романа Ф. М. Достоевского",
+      "homework": "Выполнить задания по карте урока",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 63405445,
+          "link": "https://belgorod.vsopen.ru/app/file/download/5da9946730872bd01745e8cba3bb0f82",
+          "size": 719502,
+          "name": "25.04.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "5da9946730872bd01745e8cba3bb0f82"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 314267,
+        "initials": "Боброва В.Ю."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137612285,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682408100000_137567811_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1134,
+        "name": "Русский язык",
+        "sysname": "Russian language"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 4,
+      "startDate": 1682408100000,
+      "stopDate": 1682410500000,
+      "examType": null,
+      "room": "33 кабинет русского языка и литературы",
+      "theme": "Деепричастие как особая глагольная форма. Образование деепричастий. Морфологический разбор деепричастий. Переход деепричастий в наречия и предлоги",
+      "homework": "Выполнить задание карты урока",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 63491188,
+          "link": "https://belgorod.vsopen.ru/app/file/download/d15b2a6737b20795127493cfa350a303",
+          "size": 101392,
+          "name": "25.04.jpg",
+          "mimeType": "image/jpeg",
+          "hash": "d15b2a6737b20795127493cfa350a303"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 314267,
+        "initials": "Боброва В.Ю."
+      },
+      "scores": [
+        {
+          "score": "5",
+          "type": "score",
+          "comment": null,
+          "grade": "excellent",
+          "extraMarkId": null,
+          "absenceReasonId": null,
+          "failureReasonId": null
+        }
+      ],
+      "previousLesson": {
+        "id": 137147615,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682411700000_137450433_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1136,
+        "name": "Физика",
+        "sysname": "Phs"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 5,
+      "startDate": 1682411700000,
+      "stopDate": 1682414100000,
+      "examType": null,
+      "room": "2 кабинет физики",
+      "theme": "Лабораторный практикум. Теоретическая подготовка к  выполнению работы №2 \"Определение заряда электрона и числа Фарадея \"",
+      "homework": "Подготовка к выполнению практической части лабораторного практикума. Составление плана выполнения практической части.",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 62913904,
+          "link": "https://belgorod.vsopen.ru/app/file/download/c756174c7ff0802abf9d5447647e2117",
+          "size": 27213,
+          "name": "КАРТА УРОКА (1) 25.04.23  10А кл.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "c756174c7ff0802abf9d5447647e2117"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 314254,
+        "initials": "Елисеев В.С."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137272308,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682415000000_137450680_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1136,
+        "name": "Физика",
+        "sysname": "Phs"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 6,
+      "startDate": 1682415000000,
+      "stopDate": 1682417400000,
+      "examType": null,
+      "room": "2 кабинет физики",
+      "theme": "Лабораторный практикум. Практическое выполнение работы №2 \"Определение заряда электрона и числа Фарадея \"",
+      "homework": "Подготовка к выполнению практической части лабораторного практикума. Составление плана выполнения практической части.",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 62913904,
+          "link": "https://belgorod.vsopen.ru/app/file/download/c756174c7ff0802abf9d5447647e2117",
+          "size": 27213,
+          "name": "КАРТА УРОКА (1) 25.04.23  10А кл.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "c756174c7ff0802abf9d5447647e2117"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 314254,
+        "initials": "Елисеев В.С."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137272308,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682418000000_137456534_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1133,
+        "name": "Математика",
+        "sysname": "Mt"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 7,
+      "startDate": 1682418000000,
+      "stopDate": 1682420400000,
+      "examType": null,
+      "room": "41 кабинет математики",
+      "theme": "Пирамида.",
+      "homework": "П.43., №43.2, 43.4, 43.6",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 62936188,
+          "link": "https://belgorod.vsopen.ru/app/file/download/b29b832eea3fa8eff6ebf5608fc62d50",
+          "size": 17084,
+          "name": "25.04.2023г, геометрия.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "b29b832eea3fa8eff6ebf5608fc62d50"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 488054,
+        "initials": "Киряева Г.И."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137389861,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682485200000_137510995_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1136,
+        "name": "Физика",
+        "sysname": "Phs"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 1,
+      "startDate": 1682485200000,
+      "stopDate": 1682487600000,
+      "examType": null,
+      "room": "2 кабинет физики",
+      "theme": "Лабораторный практикум. Теоретическая подготовка к  выполнению работы №3 \"Определение удельной теплоты плавления льда \"",
+      "homework": "Подготовка к выполнению практической части лабораторного практикума. Составление плана выполнения практической части., Подготовка к выполнению теоретической и практической части лабораторного практикума.",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 63094335,
+          "link": "https://belgorod.vsopen.ru/app/file/download/b3bc4d4870d53e6dbb7f2b418139df2b",
+          "size": 27803,
+          "name": "КАРТА УРОКА 26.04.23  10А кл.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "b3bc4d4870d53e6dbb7f2b418139df2b"
+        },
+        {
+          "id": 62914696,
+          "link": "https://belgorod.vsopen.ru/app/file/download/423b2fa92420bd5b643c5a99063731bf",
+          "size": 27967,
+          "name": "КАРТА УРОКА (2) 25.04.23  10А кл.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "423b2fa92420bd5b643c5a99063731bf"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 314254,
+        "initials": "Елисеев В.С."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137450680,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682488200000_137510690_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1133,
+        "name": "Математика",
+        "sysname": "Mt"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 2,
+      "startDate": 1682488200000,
+      "stopDate": 1682490600000,
+      "examType": null,
+      "room": "41 кабинет математики",
+      "theme": "Наибольшее и наименьшее значения функции на отрезке.",
+      "homework": "П.18, №18.5, 18.7.",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 63092933,
+          "link": "https://belgorod.vsopen.ru/app/file/download/88bb1ca5ece9ff6c21bcdf0008b89211",
+          "size": 17815,
+          "name": "26.04.23г, алгебра..docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "88bb1ca5ece9ff6c21bcdf0008b89211"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 488054,
+        "initials": "Киряева Г.И."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137456534,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682491200000_137079893_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 3084,
+        "name": "Информатика",
+        "sysname": "Informatika"
+      },
+      "subgroup": "Вторая группа",
+      "scheduled": true,
+      "number": 3,
+      "startDate": 1682491200000,
+      "stopDate": 1682493600000,
+      "examType": null,
+      "room": "31 кабинет информатики",
+      "theme": null,
+      "homework": ".",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 63105967,
+          "link": "https://belgorod.vsopen.ru/app/file/download/561ae1d2c20affa07bb1eed638c7b12d",
+          "size": 20190,
+          "name": "10А_26_04_2023 — первый.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "561ae1d2c20affa07bb1eed638c7b12d"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 490322,
+        "initials": "Качурова Е.В."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137079888,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682494500000_137079898_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 3084,
+        "name": "Информатика",
+        "sysname": "Informatika"
+      },
+      "subgroup": "Вторая группа",
+      "scheduled": true,
+      "number": 4,
+      "startDate": 1682494500000,
+      "stopDate": 1682496900000,
+      "examType": null,
+      "room": "31 кабинет информатики",
+      "theme": null,
+      "homework": ".",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 63105967,
+          "link": "https://belgorod.vsopen.ru/app/file/download/561ae1d2c20affa07bb1eed638c7b12d",
+          "size": 20190,
+          "name": "10А_26_04_2023 — первый.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "561ae1d2c20affa07bb1eed638c7b12d"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 490322,
+        "initials": "Качурова Е.В."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137079888,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682498100000_137247755_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1139,
+        "name": "Физическая культура",
+        "sysname": "PhCu"
+      },
+      "subgroup": "Юноши",
+      "scheduled": true,
+      "number": 5,
+      "startDate": 1682498100000,
+      "stopDate": 1682500500000,
+      "examType": null,
+      "room": "тренажерный зал",
+      "theme": "Знания о физической культуре: Техника передачи и ловля мяча Преодоление полосы препятствий. Совершенствование техники броска в неподвижную и движущуюся  цель. Совершенствование техники передачи мяча на дальность. Совершенствование техники приема мяча летя",
+      "homework": "Повторить правила техники безопасности.",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 62506477,
+          "link": "https://belgorod.vsopen.ru/app/file/download/f9296c645c5e84102653948d35009559",
+          "size": 13924,
+          "name": "10 е классы 24.04.2023 .docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "f9296c645c5e84102653948d35009559"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 544852,
+        "initials": "Можевитин П.С."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137247726,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682501400000_137371423_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1132,
+        "name": "Иностранный язык",
+        "sysname": "InYaz"
+      },
+      "subgroup": "вторая группа",
+      "scheduled": true,
+      "number": 6,
+      "startDate": 1682501400000,
+      "stopDate": 1682503800000,
+      "examType": null,
+      "room": "50 кабинет иностранного языка",
+      "theme": "Самоконтроль,самокоррекция, рефлексия по материалу",
+      "homework": "Упр.4 а-в письменно",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 63099908,
+          "link": "https://belgorod.vsopen.ru/app/file/download/51d30ca4313a46035eb8890cf1c0d9ef",
+          "size": 1418631,
+          "name": "26.04.23 10 класс.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "51d30ca4313a46035eb8890cf1c0d9ef"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 312900,
+        "initials": "Васильева Е.В."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137371288,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682504400000_0_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1469,
+        "name": "История",
+        "sysname": "His"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 7,
+      "startDate": 1682504400000,
+      "stopDate": 1682506800000,
+      "examType": null,
+      "room": "37 кабинет истории",
+      "theme": null,
+      "homework": null,
+      "individualHomework": null,
+      "homeworkFiles": [],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 313800,
+        "initials": "Кайдалова Н.Н."
+      },
+      "scores": [],
+      "previousLesson": null
+    },
+    {
+      "id": "1682507400000_137567789_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 6659,
+        "name": "Сочинение: уроки творчества",
+        "sysname": ""
+      },
+      "subgroup": "Сочинение: уроки творчества",
+      "scheduled": true,
+      "number": 8,
+      "startDate": 1682507400000,
+      "stopDate": 1682509800000,
+      "examType": null,
+      "room": "33 кабинет русского языка и литературы",
+      "theme": "Рецензирование творческих работ",
+      "homework": null,
+      "individualHomework": null,
+      "homeworkFiles": [],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 314267,
+        "initials": "Боброва В.Ю."
+      },
+      "scores": [],
+      "previousLesson": null
+    },
+    {
+      "id": "1682571600000_0_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1473,
+        "name": "Обществознание",
+        "sysname": "Obs"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 1,
+      "startDate": 1682571600000,
+      "stopDate": 1682574000000,
+      "examType": null,
+      "room": "4 кабинет музыки",
+      "theme": null,
+      "homework": null,
+      "individualHomework": null,
+      "homeworkFiles": [],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 313800,
+        "initials": "Кайдалова Н.Н."
+      },
+      "scores": [],
+      "previousLesson": null
+    },
+    {
+      "id": "1682574600000_0_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1469,
+        "name": "История",
+        "sysname": "His"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 2,
+      "startDate": 1682574600000,
+      "stopDate": 1682577000000,
+      "examType": null,
+      "room": "4 кабинет музыки",
+      "theme": null,
+      "homework": null,
+      "individualHomework": null,
+      "homeworkFiles": [],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 313800,
+        "initials": "Кайдалова Н.Н."
+      },
+      "scores": [],
+      "previousLesson": null
+    },
+    {
+      "id": "1682577600000_137555317_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1133,
+        "name": "Математика",
+        "sysname": "Mt"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 3,
+      "startDate": 1682577600000,
+      "stopDate": 1682580000000,
+      "examType": null,
+      "room": "41 кабинет математики",
+      "theme": "Наибольшее и наименьшее значения функции на отрезке.",
+      "homework": "П.43, №43.8, 43.10, 43.12, 43.14.",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 63240095,
+          "link": "https://belgorod.vsopen.ru/app/file/download/fad7884ae9e1eb08b5b5b9fc048f0c26",
+          "size": 17857,
+          "name": "27.04.23г, алгебра.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "fad7884ae9e1eb08b5b5b9fc048f0c26"
+        },
+        {
+          "id": 63240132,
+          "link": "https://belgorod.vsopen.ru/app/file/download/e24063d02c7d106603ff646b9f5b6a34",
+          "size": 17302,
+          "name": "27.04.2023г, геометрия.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "e24063d02c7d106603ff646b9f5b6a34"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 488054,
+        "initials": "Киряева Г.И."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137510690,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682580900000_137555355_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1133,
+        "name": "Математика",
+        "sysname": "Mt"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 4,
+      "startDate": 1682580900000,
+      "stopDate": 1682583300000,
+      "examType": null,
+      "room": "41 кабинет математики",
+      "theme": "Пирамида.",
+      "homework": "П.43, №43.8, 43.10, 43.12, 43.14.",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 63240095,
+          "link": "https://belgorod.vsopen.ru/app/file/download/fad7884ae9e1eb08b5b5b9fc048f0c26",
+          "size": 17857,
+          "name": "27.04.23г, алгебра.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "fad7884ae9e1eb08b5b5b9fc048f0c26"
+        },
+        {
+          "id": 63240132,
+          "link": "https://belgorod.vsopen.ru/app/file/download/e24063d02c7d106603ff646b9f5b6a34",
+          "size": 17302,
+          "name": "27.04.2023г, геометрия.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "e24063d02c7d106603ff646b9f5b6a34"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 488054,
+        "initials": "Киряева Г.И."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137510690,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682584500000_137330998_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 8454,
+        "name": "Основы безопасности жизнедеятельности",
+        "sysname": "Fundamentals of life safety"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 5,
+      "startDate": 1682584500000,
+      "stopDate": 1682586900000,
+      "examType": null,
+      "room": "ОБЖ 2",
+      "theme": "Правила оказания первой  помощи при травмах",
+      "homework": "Изучить материал п.31, ответить на вопросы 1-4, задания 5-7 на стр.153",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 62139627,
+          "link": "https://belgorod.vsopen.ru/app/file/download/2b9d91f86ef29e87fd27fddb5ade8154",
+          "size": 19308,
+          "name": "КАРТА УРОКА(31) -Татаринцев 10 класс 27.04.2023г..docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "2b9d91f86ef29e87fd27fddb5ade8154"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 2152917,
+        "initials": "Татаринцев В.И."
+      },
+      "scores": [
+        {
+          "score": "5",
+          "type": "score",
+          "comment": null,
+          "grade": "excellent",
+          "extraMarkId": null,
+          "absenceReasonId": null,
+          "failureReasonId": null
+        }
+      ],
+      "previousLesson": {
+        "id": 136840587,
+        "hasHomeworkResult": true
+      }
+    },
+    {
+      "id": "1682587800000_137555416_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1136,
+        "name": "Физика",
+        "sysname": "Phs"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 6,
+      "startDate": 1682587800000,
+      "stopDate": 1682590200000,
+      "examType": null,
+      "room": "2 кабинет физики",
+      "theme": "Лабораторный практикум. Практическое выполнение работы №3 \"Определение удельной теплоты плавления льда  \"",
+      "homework": "Подготовка к выполнению практической части лабораторного практикума",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 63240370,
+          "link": "https://belgorod.vsopen.ru/app/file/download/ad1ca4cb4accd5f1b876114f0df12171",
+          "size": 27466,
+          "name": "КАРТА УРОКА 27.04.23  10А кл.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "ad1ca4cb4accd5f1b876114f0df12171"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 314254,
+        "initials": "Елисеев В.С."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137510995,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682590800000_137452319_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 4944,
+        "name": "Индивидуальный проект",
+        "sysname": "IndProject"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 7,
+      "startDate": 1682590800000,
+      "stopDate": 1682593200000,
+      "examType": null,
+      "room": "37 кабинет истории",
+      "theme": "Навыки монологической речи. Аргументирующая речь",
+      "homework": "Составить план выступления защиты проекта",
+      "individualHomework": null,
+      "homeworkFiles": [],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 313800,
+        "initials": "Кайдалова Н.Н."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137451774,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682593800000_137552178_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1557,
+        "name": "Методы решения физических задач",
+        "sysname": null
+      },
+      "subgroup": "Методы решения физических задач",
+      "scheduled": true,
+      "number": 8,
+      "startDate": 1682593800000,
+      "stopDate": 1682596200000,
+      "examType": null,
+      "room": "2 кабинет физики",
+      "theme": "Напряженность поля",
+      "homework": null,
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 63226795,
+          "link": "https://belgorod.vsopen.ru/app/file/download/71ff3a28c4878e323f0b4a35141ca4dc",
+          "size": 16363,
+          "name": "КАРТА УРОКА 10А кл. 27.04.23.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "71ff3a28c4878e323f0b4a35141ca4dc"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 314254,
+        "initials": "Елисеев В.С."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137228642,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682658000000_137612306_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1135,
+        "name": "Литература",
+        "sysname": "Lit"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 1,
+      "startDate": 1682658000000,
+      "stopDate": 1682660400000,
+      "examType": null,
+      "room": "33 кабинет русского языка и литературы",
+      "theme": "Образ Петербурга и средства его воссоздания в романе",
+      "homework": "Выполнить задания по карте урока",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 63405478,
+          "link": "https://belgorod.vsopen.ru/app/file/download/8e3b3053630df0a216b6e68d0781c24e",
+          "size": 730102,
+          "name": "28.04.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "8e3b3053630df0a216b6e68d0781c24e"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 314267,
+        "initials": "Боброва В.Ю."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137612297,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682661000000_137599722_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1133,
+        "name": "Математика",
+        "sysname": "Mt"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 2,
+      "startDate": 1682661000000,
+      "stopDate": 1682663400000,
+      "examType": null,
+      "room": "41 кабинет математики",
+      "theme": "Наибольшее и наименьшее значения функции на отрезке.",
+      "homework": "№43.16, 43.18, 43.22., П.18, №18.14, 18.16.",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 63382461,
+          "link": "https://belgorod.vsopen.ru/app/file/download/bbc1405cda2eb7b63d2423c59140adc3",
+          "size": 17548,
+          "name": "28.04.23г, алгебра.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "bbc1405cda2eb7b63d2423c59140adc3"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 488054,
+        "initials": "Киряева Г.И."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137555355,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682664000000_137371446_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1132,
+        "name": "Иностранный язык",
+        "sysname": "InYaz"
+      },
+      "subgroup": "вторая группа",
+      "scheduled": true,
+      "number": 3,
+      "startDate": 1682664000000,
+      "stopDate": 1682666400000,
+      "examType": null,
+      "room": "50 кабинет иностранного языка",
+      "theme": "Совершенствование навыков чтения",
+      "homework": "Подготовиться к тесту по пассивному залогу",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 63380524,
+          "link": "https://belgorod.vsopen.ru/app/file/download/6f174540f9695788bc0cf2d89ea54ba5",
+          "size": 15512,
+          "name": "28.04.23 10 класс.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "6f174540f9695788bc0cf2d89ea54ba5"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 312900,
+        "initials": "Васильева Е.В."
+      },
+      "scores": [
+        {
+          "score": "5",
+          "type": "score",
+          "comment": null,
+          "grade": "excellent",
+          "extraMarkId": null,
+          "absenceReasonId": null,
+          "failureReasonId": null
+        }
+      ],
+      "previousLesson": {
+        "id": 137371423,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682667300000_0_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1473,
+        "name": "Обществознание",
+        "sysname": "Obs"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 4,
+      "startDate": 1682667300000,
+      "stopDate": 1682669700000,
+      "examType": null,
+      "room": "37 кабинет истории",
+      "theme": null,
+      "homework": null,
+      "individualHomework": null,
+      "homeworkFiles": [],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 313800,
+        "initials": "Кайдалова Н.Н."
+      },
+      "scores": [],
+      "previousLesson": null
+    },
+    {
+      "id": "1682670900000_137598322_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1472,
+        "name": "Астрономия",
+        "sysname": "As"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 5,
+      "startDate": 1682670900000,
+      "stopDate": 1682673300000,
+      "examType": null,
+      "room": "2 кабинет физики",
+      "theme": "Модель «горячей Вселенной» и реликтовое излучение",
+      "homework": "§34. Вопросы и задания на стр. 127",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 63376736,
+          "link": "https://belgorod.vsopen.ru/app/file/download/6382ee8eda20da020778fa29920c6179",
+          "size": 14755,
+          "name": "КАРТА УРОКА 28.04.23   Астр. 10А-В кл.docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "6382ee8eda20da020778fa29920c6179"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 314254,
+        "initials": "Елисеев В.С."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137272366,
+        "hasHomeworkResult": true
+      }
+    },
+    {
+      "id": "1682674200000_0_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1136,
+        "name": "Физика",
+        "sysname": "Phs"
+      },
+      "subgroup": null,
+      "scheduled": true,
+      "number": 6,
+      "startDate": 1682674200000,
+      "stopDate": 1682676600000,
+      "examType": null,
+      "room": "2 кабинет физики",
+      "theme": null,
+      "homework": "Подготовка к выполнению теоретической и практической части лабораторного практикума",
+      "individualHomework": null,
+      "homeworkFiles": [],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 314254,
+        "initials": "Елисеев В.С."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137555416,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682677200000_137247773_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 1139,
+        "name": "Физическая культура",
+        "sysname": "PhCu"
+      },
+      "subgroup": "Юноши",
+      "scheduled": true,
+      "number": 7,
+      "startDate": 1682677200000,
+      "stopDate": 1682679600000,
+      "examType": null,
+      "room": "тренажерный зал",
+      "theme": "Знания о физической культуре: Техника передачи и ловля мяча с отскоком от площадке Урок – игра.  Совершенствование навыков  передачи  мяча с места, в движении (ловля и передача мяча в парах, в тройках). Русская лапта",
+      "homework": "Повторить правила игры «Русская лапта»",
+      "individualHomework": null,
+      "homeworkFiles": [
+        {
+          "id": 62507120,
+          "link": "https://belgorod.vsopen.ru/app/file/download/fa4f62219788c9c0f4aea3020e0cbdc2",
+          "size": 13929,
+          "name": "10 е классы 26.04.2023 .docx",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "hash": "fa4f62219788c9c0f4aea3020e0cbdc2"
+        }
+      ],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 544852,
+        "initials": "Можевитин П.С."
+      },
+      "scores": [],
+      "previousLesson": {
+        "id": 137247755,
+        "hasHomeworkResult": false
+      }
+    },
+    {
+      "id": "1682683800000_0_6833768",
+      "scholar": {
+        "id": 6833768
+      },
+      "eduPlanTemplate": {
+        "id": 218333,
+        "name": "углубленный",
+        "sysname": "uglublennyi"
+      },
+      "school": {
+        "id": 61111,
+        "name": "Лицей № 32"
+      },
+      "schoolGroup": {
+        "id": 917855,
+        "letter": "А",
+        "parallel": 10
+      },
+      "subject": {
+        "id": 6125,
+        "name": "Решение задач по информатике",
+        "sysname": ""
+      },
+      "subgroup": "Решение задач по информатике",
+      "scheduled": true,
+      "number": 9,
+      "startDate": 1682683800000,
+      "stopDate": 1682686200000,
+      "examType": null,
+      "room": "31 кабинет информатики",
+      "theme": null,
+      "homework": null,
+      "individualHomework": null,
+      "homeworkFiles": [],
+      "individualHomeworkFiles": [],
+      "teacher": {
+        "id": 490322,
+        "initials": "Качурова Е.В."
+      },
+      "scores": [],
+      "previousLesson": null
+    }
+  ],
+  "totalCount": 39
+}

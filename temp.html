@@ -1,0 +1,425 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru"><head>
+        <base href="https://belgorod.vsopen.ru/app/">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <meta http-equiv="pragma" content="no-cache">
+        <title>VSopen.ru :: Виртуальная школа</title>
+        <!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="client/ru/vsopen/system/css/iestyle.css?340" />
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="client/ru/vsopen/system/css/style.css?340">
+        <link rel="stylesheet" type="text/css" href="client/ru/vsopen/system/css/pretty_table.css?340">
+        <link rel="stylesheet" type="text/css" href="client/ru/vsopen/system/css/smartpaginator.css?340">
+        <link rel="stylesheet" type="text/css" href="client/css/system/tableClone.css?340">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+        <!-- jquery -->
+        <script type="text/javascript" src="client/ru/vsopen/system/js/jquery-ui/js/jquery.min.js?340"></script>
+        <script type="text/javascript" src="client/ru/vsopen/system/js/jquery-ui/js/jquery-ui.min.js?340"></script>
+        <link rel="stylesheet" href="client/ru/vsopen/system/js/jquery-ui/css/jquery-ui.min.css?340">
+
+        <script type="text/javascript" src="client/js/lib/moment-with-locales.js?340"></script>
+        <script type="text/javascript" src="client/js/lib/moment-timezone.js?340"></script>
+        <script type="text/javascript" src="client/js/lib/moment-timezone-data.js?340"></script>
+        <script type="text/javascript" src="client/js/lib/soyutils.js?340"></script>
+
+        <!-- underscore -->
+        <script type="text/javascript" src="client/js/lib/underscore-min.js?340"></script>
+
+        <script type="text/javascript" src="client/ru/vsopen/system/js/globalvsopen.js?340"></script>
+        <script type="text/javascript" src="client/ru/vsopen/system/js/jquery-redirect/jquery.redirect.js?340"></script>
+
+        <!-- qtip tooltip-->
+        <script type="text/javascript" src="client/ru/vsopen/system/js/qtip/jquery.qtip.js?340"></script>
+        <link rel="stylesheet" type="text/css" href="client/ru/vsopen/system/js/qtip/jquery.qtip.css?340">
+
+        <!-- chosen -->
+        <script src="client/ru/vsopen/system/js/chosen/chosen.jquery.min.js?340" type="text/javascript"></script>
+        <script src="client/ru/vsopen/system/js/chosen/chosen.proto.min.js?340" type="text/javascript"></script>
+        <link rel="stylesheet" href="client/ru/vsopen/system/js/chosen/chosen.min.css?340">
+
+        <!--workAreaSelector-->
+        <link rel="stylesheet" href="client/css/system/selectors.css?340">
+        <script type="text/javascript" src="client/js/soy/workAreaSelector.js?340"></script>
+
+        <!-- confirm -->
+        <link rel="stylesheet" type="text/css" href="client/css/system/confirm.css?340">
+        <script type="text/javascript" src="client/js/soy/confirm.js?340"></script>
+
+        <!-- eduTermSelector -->
+        <script type="text/javascript" src="client/js/soy/eduTermSelector.js?340"></script>
+
+        <script>
+            var mainParams = {
+                baseUrl: '',
+                apiUrl: '' + 'api/' + '1'
+            };
+        </script>
+    </head>
+    <body>
+        <div id="main_header"></div>
+        <div id="main">
+            <div id="left">
+
+    <div class="widget normal menu" style="width: 81px;">
+        <div class="header">
+    <div class="borders">
+        <div class="nw"></div>
+        <div class="ne"></div>
+    </div>
+        </div>
+        <div class="content js-menu-content">
+
+    <div class="borders">
+        <div class="w"></div>
+        <div class="e"></div>
+    </div>
+
+
+<link rel="stylesheet" type="text/css" href="client/ru/vsopen/base/menu/css/style.css?340">
+
+    <div class="left_menu">
+            <a href="javascript:void(0);" data-widget="schedulingLesson" title="Учебное расписание" class="tdn js-menu">
+                <div class="widgets-icons-sprite schedulingLesson"></div>
+            </a>
+            <a href="javascript:void(0);" data-widget="eduplans" title="Учебные планы" class="tdn js-menu">
+                <div class="widgets-icons-sprite eduplans"></div>
+            </a>
+    </div>
+    <div class="left_menu">
+            <a href="javascript:void(0);" data-widget="thematicplans" title="Тематическое планирование" class="tdn js-menu">
+                <div class="widgets-icons-sprite thematicplans"></div>
+            </a>
+    </div>
+    <div class="left_menu">
+            <a href="javascript:void(0);" data-widget="messaging" title="Внутренняя почта" class="tdn js-menu">
+                <div class="widgets-icons-sprite messaging"></div>
+            </a>
+            <a href="javascript:void(0);" data-widget="notifications" title="Уведомления" class="tdn js-menu">
+                <div class="widgets-icons-sprite notifications"></div>
+            </a>
+    </div>
+    <div class="left_menu">
+            <a href="javascript:void(0);" data-widget="studentDiary" title="Дневник" class="tdn js-menu">
+                <div class="widgets-icons-sprite studentDiary"></div>
+            </a>
+            <a href="javascript:void(0);" data-widget="studentportfolio" title="Портфолио ученика" class="tdn js-menu">
+                <div class="widgets-icons-sprite studentportfolio"></div>
+            </a>
+            <a href="javascript:void(0);" data-widget="studentReport" title="Табель успеваемости" class="tdn js-menu">
+                <div class="widgets-icons-sprite studentReport"></div>
+            </a>
+    </div>
+
+<script type="text/javascript">MENU.init({baseUrl: ''});</script>        </div>
+        <div class="footer">
+    <div class="borders">
+        <div class="sw"></div>
+        <div class="se"></div>
+        <div class="s"></div>
+    </div>
+        </div>
+    </div>
+            </div>
+            <div id="minblocks"></div>
+            <div id="normalblocks">
+    <div id="wx0" class="widget normal studentDiary js-studentDiary-widget" style="width: 1024px;">
+        <div id="wx0_module" class="studentDiary"></div>
+        <div class="header">
+    <div class="borders">
+        <div class="nw"></div>
+        <div class="ne"></div>
+    </div>
+            <div class="widget_header">
+                <h2>Дневник ученика Трикула А. К.</h2>
+            </div>
+            <div class="buttons">
+
+    <script type="text/javascript">
+        WIDGET.initWidget({baseUrl: '', prefix: 'wx0', widget: 'studentDiary'});
+    </script>
+
+        <div class="button-border"></div>
+        <a href="javascript:void(0);" class="close js-widget-close" title="Закрыть"></a>
+
+            </div>
+        </div>
+        <div class="content">
+    <div class="borders">
+        <div class="w"></div>
+        <div class="e"></div>
+    </div>
+            <div class="js-widget-loaders">
+                <div id="wx0_loader" class="loader" style="display: none; top: 57px; left: 463px;"></div>
+                <div id="wx0_divloader" class="divloader" style="display: none; top: 45px; left: 0px; height: 64.7887%; width: 100%;"></div>
+            </div>
+
+<link rel="stylesheet" type="text/css" href="client/css/system/importExport.css?340">
+
+
+    <div class="import-export-panel">
+
+        <script>
+            IMPORT_EXPORT_PANEL.init({
+                baseUrl: '',
+                prefix: 'wx0',
+                widget: 'studentDiary'
+            });
+        </script>
+
+    </div>
+
+
+<link rel="stylesheet" href="client/css/common/common.css?340">
+
+<link rel="stylesheet" href="client/ru/vsopen/edu/xreports/studentJournal/css/journal.css?340">
+<link rel="stylesheet" href="client/css/edu/diary.css?340">
+<link rel="stylesheet" href="client/ru/vsopen/edu/xreports/studentJournal/css/modal.css?340">
+<link rel="stylesheet" href="client/ru/vsopen/base/start/css/main.css?340">
+<link rel="stylesheet" href="client/ru/vsopen/edu/foods/foodorders/css/foodorders.css?340">
+
+<script type="text/javascript" src="client/js/edu/diary/diary.js?340"></script>
+<script type="text/javascript" src="client/js/soy/diary.js?340"></script>
+<script type="text/javascript" src="client/js/edu/journal/journal.js?340"></script>
+
+
+    <div class="js-diary-container">
+
+    <div class="food_order_navigation">
+        <table>
+            <colgroup>
+                <col width="10%">
+                <col width="80%">
+                <col width="10%">
+            </colgroup>
+            <tbody>
+            <tr>
+                <td>
+                    <a href="javascript:void(0);" class="js-navigate-left" title="Назад">
+                        <img src="images/arrow_left_green_48.png">
+                    </a>
+                </td>
+                <td>
+                        <span>Перейти к дате:</span>
+                        <input class="vsopen-limited-calendar js-date hasDatepicker" data-mindate="2022-09-01" data-maxdate="2023-08-31" id="dp1682885015339">
+                </td>
+                <td>
+                    <a href="javascript:void(0);" class="js-navigate-right" title="Вперед">
+                        <img src="images/arrow_right_green_48.png">
+                    </a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+        <div class="js-diary-lessons-container"><div class="js-reasons-diary" data-failure-reasons="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Другое&quot;,&quot;sysname&quot;:&quot;default&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Неуважительная&quot;,&quot;sysname&quot;:&quot;unreasonable excuse&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Уважительная&quot;,&quot;sysname&quot;:&quot;reasonable excuse&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;Освобождение&quot;,&quot;sysname&quot;:&quot;exemption&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;По болезни&quot;,&quot;sysname&quot;:&quot;illness&quot;}]" data-absence-reasons="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Неуважительная&quot;,&quot;sysname&quot;:&quot;unreasonable excuse&quot;,&quot;abbreviation&quot;:&quot;н/у&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Уважительная&quot;,&quot;sysname&quot;:&quot;reasonable excuse&quot;,&quot;abbreviation&quot;:&quot;у&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Освобождение&quot;,&quot;sysname&quot;:&quot;exemption&quot;,&quot;abbreviation&quot;:&quot;о&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;По болезни&quot;,&quot;sysname&quot;:&quot;illness&quot;,&quot;abbreviation&quot;:&quot;б&quot;}]"></div><div class="b-diary__day-group clearfix js-days-container"><div class="b-diary__day-group__item"><div class="b-diary__day-date"><span style="font-weight: bold;">Понедельник (24.04.2023)</span></div><table class="diary-day"><colgroup><col width="7%"><col width="36%"><col width="33%"><col width="5%"><col width="4%"><col width="7%"><col width="7%"></colgroup><thead><tr><th>№</th><th>Предмет</th><th colspan="3">Домашнее задание</th><th colspan="2">Оценка</th></tr></thead><tbody><tr><td class="diary-day__number">1</td><td class="diary-day__lessons diary-schedule"><span>Разговоры о важном (Разговоры о важном)</span><br><span>41 кабинет математики</span></td><td class="diary-day__hw"><div class="homework-text"> </div></td><td class="diary-day__file"></td><td class="diary-day__homework-result "></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">2</td><td class="diary-day__lessons diary-schedule"><span>Иностранный язык (вторая группа)</span><br><span>50 кабинет иностранного языка</span></td><td class="diary-day__hw"><div class="homework-text">Упр.6-9 стр.127 письменно </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="62770469" data-individualfiles=""></i></td><td class="diary-day__homework-result diary-homework-result-filled"><img class="js-diary-homework-result" data-id="137040646" data-date="24.04.2023" data-subject="Иностранный язык (вторая группа)" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">3</td><td class="diary-day__lessons diary-schedule"><span>Литература</span><br><span>33 кабинет русского языка и литературы</span></td><td class="diary-day__hw"><div class="homework-text">Выполнить задания по карте урока </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="63405412" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137612242" data-date="24.04.2023" data-subject="Литература" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">4</td><td class="diary-day__lessons diary-schedule"><span>Физическая культура (Юноши)</span><br><span>тренажерный зал</span></td><td class="diary-day__hw"><div class="homework-text">Составить комплекс утренней гимнастики </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="62505822" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137247704" data-date="24.04.2023" data-subject="Физическая культура (Юноши)" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">5</td><td class="diary-day__lessons diary-schedule"><span>Математика</span><br><span>41 кабинет математики</span></td><td class="diary-day__hw"><div class="homework-text">Дм, С-43, вариант 2. </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="62792470,62792478" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137234339" data-date="24.04.2023" data-subject="Математика" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">6</td><td class="diary-day__lessons diary-schedule"><span>Информатика (Вторая группа)</span><br><span>31 кабинет информатики</span></td><td class="diary-day__hw"><div class="homework-text">§ 67., § 67. </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="62331779,62813471" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="136735878" data-date="24.04.2023" data-subject="Информатика (Вторая группа)" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">7</td><td class="diary-day__lessons diary-schedule"><span>Математика</span><br><span>41 кабинет математики</span></td><td class="diary-day__hw"><div class="homework-text">Дм, С-43, вариант 2. </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="62792470,62792478" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137234339" data-date="24.04.2023" data-subject="Математика" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "><span class="mark diary-mark excellent">5</span></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">8</td><td class="diary-day__lessons diary-schedule"><span>Практикум по решению геометрических задач (Практикум по решению геометрических задач)</span><br><span>41 кабинет математики</span></td><td class="diary-day__hw"><div class="homework-text"> </div></td><td class="diary-day__file"></td><td class="diary-day__homework-result "></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr></tbody></table></div><div class="b-diary__day-group__item"><div class="b-diary__day-date"><span style="font-weight: bold;">Четверг (27.04.2023)</span></div><table class="diary-day"><colgroup><col width="7%"><col width="36%"><col width="33%"><col width="5%"><col width="4%"><col width="7%"><col width="7%"></colgroup><thead><tr><th>№</th><th>Предмет</th><th colspan="3">Домашнее задание</th><th colspan="2">Оценка</th></tr></thead><tbody><tr><td class="diary-day__number">1</td><td class="diary-day__lessons diary-schedule"><span>Обществознание</span><br><span>4 кабинет музыки</span></td><td class="diary-day__hw"><div class="homework-text"> </div></td><td class="diary-day__file"></td><td class="diary-day__homework-result "></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">2</td><td class="diary-day__lessons diary-schedule"><span>История</span><br><span>4 кабинет музыки</span></td><td class="diary-day__hw"><div class="homework-text"> </div></td><td class="diary-day__file"></td><td class="diary-day__homework-result "></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">3</td><td class="diary-day__lessons diary-schedule"><span>Математика</span><br><span>41 кабинет математики</span></td><td class="diary-day__hw"><div class="homework-text">П.43, №43.8, 43.10, 43.12, 43.14. </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="63240095,63240132" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137510690" data-date="27.04.2023" data-subject="Математика" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">4</td><td class="diary-day__lessons diary-schedule"><span>Математика</span><br><span>41 кабинет математики</span></td><td class="diary-day__hw"><div class="homework-text">П.43, №43.8, 43.10, 43.12, 43.14. </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="63240095,63240132" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137510690" data-date="27.04.2023" data-subject="Математика" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">5</td><td class="diary-day__lessons diary-schedule"><span>Основы безопасности жизнедеятельности</span><br><span>ОБЖ 2</span></td><td class="diary-day__hw"><div class="homework-text">Изучить материал п.31, ответить на вопросы 1-4, задания 5-7 на стр.153 </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="62139627" data-individualfiles=""></i></td><td class="diary-day__homework-result diary-homework-result-filled"><img class="js-diary-homework-result" data-id="136840587" data-date="27.04.2023" data-subject="Основы безопасности жизнедеятельности" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "><span class="mark diary-mark excellent">5</span></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">6</td><td class="diary-day__lessons diary-schedule"><span>Физика</span><br><span>2 кабинет физики</span></td><td class="diary-day__hw"><div class="homework-text">Подготовка к выполнению практической части лабораторного практикума </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="63240370" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137510995" data-date="27.04.2023" data-subject="Физика" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">7</td><td class="diary-day__lessons diary-schedule"><span>Индивидуальный проект</span><br><span>37 кабинет истории</span></td><td class="diary-day__hw"><div class="homework-text">Составить план выступления защиты проекта </div></td><td class="diary-day__file"></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137451774" data-date="27.04.2023" data-subject="Индивидуальный проект" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">8</td><td class="diary-day__lessons diary-schedule"><span>Методы решения физических задач (Методы решения физических задач)</span><br><span>2 кабинет физики</span></td><td class="diary-day__hw"><div class="homework-text"> </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="63226795" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137228642" data-date="27.04.2023" data-subject="Методы решения физических задач (Методы решения физических задач)" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr></tbody></table></div></div><div class="b-diary__day-group clearfix js-days-container"><div class="b-diary__day-group__item"><div class="b-diary__day-date"><span style="font-weight: bold;">Вторник (25.04.2023)</span></div><table class="diary-day"><colgroup><col width="7%"><col width="36%"><col width="33%"><col width="5%"><col width="4%"><col width="7%"><col width="7%"></colgroup><thead><tr><th>№</th><th>Предмет</th><th colspan="3">Домашнее задание</th><th colspan="2">Оценка</th></tr></thead><tbody><tr><td class="diary-day__number">1</td><td class="diary-day__lessons diary-schedule"><span>Химия</span><br><span>1 кабинет химии</span></td><td class="diary-day__hw"><div class="homework-text">П.15, карта урока </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="62896243" data-individualfiles=""></i></td><td class="diary-day__homework-result diary-homework-result-filled"><img class="js-diary-homework-result" data-id="137115880" data-date="25.04.2023" data-subject="Химия" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating exam"></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">2</td><td class="diary-day__lessons diary-schedule"><span>Информатика (Вторая группа)</span><br><span>31 кабинет информатики</span></td><td class="diary-day__hw"><div class="homework-text">. </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="62957911" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137079879" data-date="25.04.2023" data-subject="Информатика (Вторая группа)" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">3</td><td class="diary-day__lessons diary-schedule"><span>Литература</span><br><span>33 кабинет русского языка и литературы</span></td><td class="diary-day__hw"><div class="homework-text">Выполнить задания по карте урока </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="63405445" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137612285" data-date="25.04.2023" data-subject="Литература" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">4</td><td class="diary-day__lessons diary-schedule"><span>Русский язык</span><br><span>33 кабинет русского языка и литературы</span></td><td class="diary-day__hw"><div class="homework-text">Выполнить задание карты урока </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="63491188" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137147615" data-date="25.04.2023" data-subject="Русский язык" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "><span class="mark diary-mark excellent">5</span></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">5</td><td class="diary-day__lessons diary-schedule"><span>Физика</span><br><span>2 кабинет физики</span></td><td class="diary-day__hw"><div class="homework-text">Подготовка к выполнению практической части лабораторного практикума. Составление плана выполнения практической части. </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="62913904" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137272308" data-date="25.04.2023" data-subject="Физика" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">6</td><td class="diary-day__lessons diary-schedule"><span>Физика</span><br><span>2 кабинет физики</span></td><td class="diary-day__hw"><div class="homework-text">Подготовка к выполнению практической части лабораторного практикума. Составление плана выполнения практической части. </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="62913904" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137272308" data-date="25.04.2023" data-subject="Физика" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">7</td><td class="diary-day__lessons diary-schedule"><span>Математика</span><br><span>41 кабинет математики</span></td><td class="diary-day__hw"><div class="homework-text">П.43., №43.2, 43.4, 43.6 </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="62936188" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137389861" data-date="25.04.2023" data-subject="Математика" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr></tbody></table></div><div class="b-diary__day-group__item"><div class="b-diary__day-date"><span style="font-weight: bold;">Пятница (28.04.2023)</span></div><table class="diary-day"><colgroup><col width="7%"><col width="36%"><col width="33%"><col width="5%"><col width="4%"><col width="7%"><col width="7%"></colgroup><thead><tr><th>№</th><th>Предмет</th><th colspan="3">Домашнее задание</th><th colspan="2">Оценка</th></tr></thead><tbody><tr><td class="diary-day__number">1</td><td class="diary-day__lessons diary-schedule"><span>Литература</span><br><span>33 кабинет русского языка и литературы</span></td><td class="diary-day__hw"><div class="homework-text">Выполнить задания по карте урока </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="63405478" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137612297" data-date="28.04.2023" data-subject="Литература" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">2</td><td class="diary-day__lessons diary-schedule"><span>Математика</span><br><span>41 кабинет математики</span></td><td class="diary-day__hw"><div class="homework-text">№43.16, 43.18, 43.22., П.18, №18.14, 18.16. </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="63382461" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137555355" data-date="28.04.2023" data-subject="Математика" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">3</td><td class="diary-day__lessons diary-schedule"><span>Иностранный язык (вторая группа)</span><br><span>50 кабинет иностранного языка</span></td><td class="diary-day__hw"><div class="homework-text">Подготовиться к тесту по пассивному залогу </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="63380524" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137371423" data-date="28.04.2023" data-subject="Иностранный язык (вторая группа)" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "><span class="mark diary-mark excellent">5</span></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">4</td><td class="diary-day__lessons diary-schedule"><span>Обществознание</span><br><span>37 кабинет истории</span></td><td class="diary-day__hw"><div class="homework-text"> </div></td><td class="diary-day__file"></td><td class="diary-day__homework-result "></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">5</td><td class="diary-day__lessons diary-schedule"><span>Астрономия</span><br><span>2 кабинет физики</span></td><td class="diary-day__hw"><div class="homework-text">§34. Вопросы и задания на стр. 127 </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="63376736" data-individualfiles=""></i></td><td class="diary-day__homework-result diary-homework-result-filled"><img class="js-diary-homework-result" data-id="137272366" data-date="28.04.2023" data-subject="Астрономия" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">6</td><td class="diary-day__lessons diary-schedule"><span>Физика</span><br><span>2 кабинет физики</span></td><td class="diary-day__hw"><div class="homework-text">Подготовка к выполнению теоретической и практической части лабораторного практикума </div></td><td class="diary-day__file"></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137555416" data-date="28.04.2023" data-subject="Физика" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">7</td><td class="diary-day__lessons diary-schedule"><span>Физическая культура (Юноши)</span><br><span>тренажерный зал</span></td><td class="diary-day__hw"><div class="homework-text">Повторить правила игры «Русская лапта» </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="62507120" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137247755" data-date="28.04.2023" data-subject="Физическая культура (Юноши)" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">8</td><td class="diary-day__lessons"></td><td class="diary-day__hw"></td><td class="diary-day__file"></td><td class="diary-day__homework-result"></td><td class="diary-day__rating"></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">9</td><td class="diary-day__lessons diary-schedule"><span>Решение задач по информатике (Решение задач по информатике)</span><br><span>31 кабинет информатики</span></td><td class="diary-day__hw"><div class="homework-text"> </div></td><td class="diary-day__file"></td><td class="diary-day__homework-result "></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr></tbody></table></div></div><div class="b-diary__day-group clearfix js-days-container"><div class="b-diary__day-group__item"><div class="b-diary__day-date"><span style="font-weight: bold;">Среда (26.04.2023)</span></div><table class="diary-day"><colgroup><col width="7%"><col width="36%"><col width="33%"><col width="5%"><col width="4%"><col width="7%"><col width="7%"></colgroup><thead><tr><th>№</th><th>Предмет</th><th colspan="3">Домашнее задание</th><th colspan="2">Оценка</th></tr></thead><tbody><tr><td class="diary-day__number">1</td><td class="diary-day__lessons diary-schedule"><span>Физика</span><br><span>2 кабинет физики</span></td><td class="diary-day__hw"><div class="homework-text">Подготовка к выполнению практической части лабораторного практикума. Составление плана выполнения практической части., Подготовка к выполнению теоретической и практической части лабораторного практикума. </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="63094335,62914696" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137450680" data-date="26.04.2023" data-subject="Физика" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">2</td><td class="diary-day__lessons diary-schedule"><span>Математика</span><br><span>41 кабинет математики</span></td><td class="diary-day__hw"><div class="homework-text">П.18, №18.5, 18.7. </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="63092933" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137456534" data-date="26.04.2023" data-subject="Математика" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">3</td><td class="diary-day__lessons diary-schedule"><span>Информатика (Вторая группа)</span><br><span>31 кабинет информатики</span></td><td class="diary-day__hw"><div class="homework-text">. </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="63105967" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137079888" data-date="26.04.2023" data-subject="Информатика (Вторая группа)" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">4</td><td class="diary-day__lessons diary-schedule"><span>Информатика (Вторая группа)</span><br><span>31 кабинет информатики</span></td><td class="diary-day__hw"><div class="homework-text">. </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="63105967" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137079888" data-date="26.04.2023" data-subject="Информатика (Вторая группа)" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">5</td><td class="diary-day__lessons diary-schedule"><span>Физическая культура (Юноши)</span><br><span>тренажерный зал</span></td><td class="diary-day__hw"><div class="homework-text">Повторить правила техники безопасности. </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="62506477" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137247726" data-date="26.04.2023" data-subject="Физическая культура (Юноши)" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">6</td><td class="diary-day__lessons diary-schedule"><span>Иностранный язык (вторая группа)</span><br><span>50 кабинет иностранного языка</span></td><td class="diary-day__hw"><div class="homework-text">Упр.4 а-в письменно </div></td><td class="diary-day__file"><i title="Файлы домашнего задания" class="file icon-comment js-homework-file-btn" data-files="63099908" data-individualfiles=""></i></td><td class="diary-day__homework-result "><img class="js-diary-homework-result" data-id="137371288" data-date="26.04.2023" data-subject="Иностранный язык (вторая группа)" alt="Выполненное домашнее задание" title="Выполненное домашнее задание" src="client/images/homeworkResults/attach.png"></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">7</td><td class="diary-day__lessons diary-schedule"><span>История</span><br><span>37 кабинет истории</span></td><td class="diary-day__hw"><div class="homework-text"> </div></td><td class="diary-day__file"></td><td class="diary-day__homework-result "></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">8</td><td class="diary-day__lessons diary-schedule"><span>Сочинение: уроки творчества (Сочинение: уроки творчества)</span><br><span>33 кабинет русского языка и литературы</span></td><td class="diary-day__hw"><div class="homework-text"> </div></td><td class="diary-day__file"></td><td class="diary-day__homework-result "></td><td class="diary-day__rating "></td><td class="diary-day__comment"></td></tr></tbody></table></div><div class="b-diary__day-group__item"><div class="b-diary__day-date"><span style="font-weight: bold;">Суббота (29.04.2023)</span></div><table class="diary-day"><colgroup><col width="7%"><col width="36%"><col width="33%"><col width="5%"><col width="4%"><col width="7%"><col width="7%"></colgroup><thead><tr><th>№</th><th>Предмет</th><th colspan="3">Домашнее задание</th><th colspan="2">Оценка</th></tr></thead><tbody><tr><td class="diary-day__number">1</td><td class="diary-day__lessons"></td><td class="diary-day__hw"></td><td class="diary-day__file"></td><td class="diary-day__homework-result"></td><td class="diary-day__rating"></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">2</td><td class="diary-day__lessons"></td><td class="diary-day__hw"></td><td class="diary-day__file"></td><td class="diary-day__homework-result"></td><td class="diary-day__rating"></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">3</td><td class="diary-day__lessons"></td><td class="diary-day__hw"></td><td class="diary-day__file"></td><td class="diary-day__homework-result"></td><td class="diary-day__rating"></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">4</td><td class="diary-day__lessons"></td><td class="diary-day__hw"></td><td class="diary-day__file"></td><td class="diary-day__homework-result"></td><td class="diary-day__rating"></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">5</td><td class="diary-day__lessons"></td><td class="diary-day__hw"></td><td class="diary-day__file"></td><td class="diary-day__homework-result"></td><td class="diary-day__rating"></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">6</td><td class="diary-day__lessons"></td><td class="diary-day__hw"></td><td class="diary-day__file"></td><td class="diary-day__homework-result"></td><td class="diary-day__rating"></td><td class="diary-day__comment"></td></tr><tr><td class="diary-day__number">7</td><td class="diary-day__lessons"></td><td class="diary-day__hw"></td><td class="diary-day__file"></td><td class="diary-day__homework-result"></td><td class="diary-day__rating"></td><td class="diary-day__comment"></td></tr></tbody></table></div></div></div>
+
+    <div class="food_order_navigation">
+        <table>
+            <colgroup>
+                <col width="10%">
+                <col width="80%">
+                <col width="10%">
+            </colgroup>
+            <tbody>
+            <tr>
+                <td>
+                    <a href="javascript:void(0);" class="js-navigate-left" title="Назад">
+                        <img src="images/arrow_left_green_48.png">
+                    </a>
+                </td>
+                <td>
+                </td>
+                <td>
+                    <a href="javascript:void(0);" class="js-navigate-right" title="Вперед">
+                        <img src="images/arrow_right_green_48.png">
+                    </a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+
+    
+
+    
+
+    <script type="text/javascript">
+        DIARY.init({
+            baseUrl: 'api/1',
+            prefix: 'wx0',
+            widget: 'studentDiary',
+            date: 1682885015299,
+            eduYearId: 2309365,
+            personId: 528418,
+            canAddFiles: true
+        });
+    </script>
+
+        </div>
+        <div class="footer">
+    <div class="borders">
+        <div class="sw"></div>
+        <div class="se"></div>
+        <div class="s"></div>
+    </div>
+<link rel="stylesheet" type="text/css" href="client/css/system/confirm.css?340">
+
+<!--в данных инпутах содержится информация для подтверждений-->
+<input value="studentDiary" type="hidden" id="wx0_widgetName">
+
+
+        </div>
+    </div>
+            </div>
+            <div id="header">
+                <a href=""></a>
+                <div id="sidebarblock" class="js-side-bar">
+
+
+
+<link rel="stylesheet" type="text/css" href="client/ru/vsopen/base/sideBar/css/style.css?340">
+
+<div class="top_menu">
+    <ul>
+        <li class="menu_li js-side-bar-element">
+            <div class="tmr">
+                <a class="js-side-bar-link" data-widget="start" href="javascript:void(0);">Начать работу</a>
+            </div>
+        </li>
+            <li class="menu_li js-side-bar-menu">
+                <div class="tmr">
+                    <span>Классы</span>
+                </div>
+                <div class="sub hid js-side-bar-sub-menu">
+                    <div class="cont">
+                        <ul>
+                                <li class="js-side-bar-element js-side-bar-link" data-widget="schedulingLesson">
+                                    <span>Учебное расписание</span>
+                                </li>
+                                <li class="js-side-bar-element js-side-bar-link" data-widget="eduplans">
+                                    <span>Учебные планы</span>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="menu_li js-side-bar-menu">
+                <div class="tmr">
+                    <span>Образовательный процесс</span>
+                </div>
+                <div class="sub hid js-side-bar-sub-menu">
+                    <div class="cont">
+                        <ul>
+                                <li class="js-side-bar-element js-side-bar-link" data-widget="thematicplans">
+                                    <span>Тематическое планирование</span>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="menu_li js-side-bar-menu">
+                <div class="tmr">
+                    <span>Сервис</span>
+                </div>
+                <div class="sub hid js-side-bar-sub-menu">
+                    <div class="cont">
+                        <ul>
+                                <li class="js-side-bar-element js-side-bar-link" data-widget="messaging">
+                                    <span>Внутренняя почта</span>
+                                </li>
+                                <li class="js-side-bar-element js-side-bar-link" data-widget="notifications">
+                                    <span>Уведомления</span>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="menu_li js-side-bar-menu">
+                <div class="tmr">
+                    <span>Успеваемость</span>
+                </div>
+                <div class="sub hid js-side-bar-sub-menu">
+                    <div class="cont">
+                        <ul>
+                                <li class="js-side-bar-element js-side-bar-link" data-widget="studentDiary">
+                                    <span>Дневник</span>
+                                </li>
+                                <li class="js-side-bar-element js-side-bar-link" data-widget="studentportfolio">
+                                    <span>Портфолио ученика</span>
+                                </li>
+                                <li class="js-side-bar-element js-side-bar-link" data-widget="studentReport">
+                                    <span>Табель успеваемости</span>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+    </ul>
+</div>
+
+<script type="text/javascript">SIDE_BAR.init({baseUrl: ''});</script>
+                </div>
+                <div id="timer" class="timer">23:03</div>
+                
+                <div class="js-right-panel right-panel">
+
+    <link rel="stylesheet" href="client/css/system/rightPanel.css?340">
+    <script type="text/javascript" src="client/js/soy/notificationPanel.js?340"></script>
+
+    <a href="javascript:void(0);" title="Личный кабинет" class="js-right-panel-person">
+        <div class="widgets-icons-sprite persons"></div>
+    </a>
+        <a href="javascript:void(0);" title="Уведомления" class="js-right-panel-notification right-panel-notification">
+            <div class="widgets-icons-sprite notifications">
+                <span class="right-panel-notification-counter js-right-panel-notification-counter hid">0</span>
+            </div>
+        </a>
+    <a href="javascript:void(0);" title="Внутренняя почта" class="messaging js-right-panel-messaging">
+        0
+    </a>
+    <a href="javascript:void(0);" title="Выход" class="js-right-panel-logout logout"></a>
+
+    <div class="js-right-panel-notification-modal right-panel-notification-modal">
+        <div class="in hid js-right-panel-notification-modal-in">
+            <div class="modal-header student__header clearfix">
+                <span class="modal-title">Новое уведомление!</span>
+            </div>
+            <div class="js-right-panel-notification-modal-content"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript">RIGHT_PANEL.init({baseUrl: ''});</script>
+    <script type="text/javascript">
+        NOTIFICATION_PANEL.init({
+            baseUrl: '',
+            baseApiUrl: 'api/1'
+        });
+    </script>
+                </div>
+            </div>
+        </div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-dialog-buttons" tabindex="-1" role="dialog" aria-labelledby="ui-id-3" style="display: none; outline: 0px; z-index: 1000;"><div id="js-diary-dialog-wx0" class="js-diary-dialog ui-dialog-content ui-widget-content" scrolltop="0" scrollleft="0" style="width: auto; min-height: 0px; height: 91px; display: block;">
+        <div class="modal_content js-diary-dialog-content"></div>
+    </div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Закрыть</span></button></div></div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-dialog-buttons" tabindex="-1" role="dialog" aria-labelledby="ui-id-4" style="display: none; outline: 0px; z-index: 1000;"><div id="js-diary-homework-result-dialog-wx0" class="js-diary-homework-result-dialog ui-dialog-content ui-widget-content" scrolltop="0" scrollleft="0" style="width: auto; min-height: 0px; height: 91px; display: block;">
+        <div class="modal_content js-diary-homework-result-content in"></div>
+    </div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Закрыть</span></button></div></div></div>
+    
+
+
+<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-dialog-buttons" tabindex="-1" role="dialog" aria-labelledby="ui-id-6" style="display: none; outline: 0px; z-index: 1000;"><div class="js-session_dialog_window ui-dialog-content ui-widget-content" scrolltop="0" scrollleft="0" style="width: auto; min-height: 91px; height: auto; display: block;">
+                    <div class="in js-session-dialog-text">
+                        <div class="modal-header student__header clearfix">
+                            <span class="modal-title">Уважаемый пользователь!</span>
+                        </div>
+                        <div>
+                            <span>
+                                В целях безопасности сеанс работы завершен, т.к. длительное время вы не
+                                совершали никаких действий.
+                                Для продолжения работы введите, пожалуйста, заново ваши логин и пароль.
+                            </span>
+                        </div>
+                    </div>
+                </div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">ОК</span></button></div></div></div><div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div></body></html>
